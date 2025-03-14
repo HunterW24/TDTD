@@ -1,0 +1,19 @@
+﻿Credits
+Lead Developer- Hunter Wixson
+
+
+Dev Team - Hunter Wixson
+                       Jefferson Gutierrez
+                       Morgan Houston
+
+
+Bug Testers - Hunter Wixson
+                          Jefferson Gutierrez
+
+
+Lead Designer - Hunter Wixson
+
+
+Side-Menu- Daniel Lochner
+-Side-Menu
+-https://assetstore.unity.com/packages/tools/gui/simple-side-menu-143623
