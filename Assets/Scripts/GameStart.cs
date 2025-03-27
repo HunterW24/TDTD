@@ -8,6 +8,8 @@ public class GameStart : MonoBehaviour
 {
 
     public static GameObject gameStartScreen;
+    public GameObject[] disableOnStart;
+    public GameObject[] enableOnStart;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,15 @@ public class GameStart : MonoBehaviour
     public void StartGame()
     {
         gameStartScreen.SetActive(false);
+        foreach(GameObject go in disableOnStart)
+        {
+            go.SetActive(false);
+        }
+
+        foreach (GameObject go in enableOnStart)
+        {
+            go.SetActive(true);
+        }
         Time.timeScale = 1;
     }
 }
